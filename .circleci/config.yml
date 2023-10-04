@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # the base image can run most needed actions with orbs
-      - image: "cimg/base:stable"
+      - image: "cimg/node"
     steps:
       - node/install
       - checkout
