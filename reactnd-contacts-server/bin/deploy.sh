@@ -1,4 +1,4 @@
 cd ../
 eb init
 cat ./elasticbeanstalk/config.yml
-eb deploy
+eb create --sample --single --instance-types t2.small
